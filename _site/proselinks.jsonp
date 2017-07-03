@@ -1,0 +1,18 @@
+callback([
+
+  {
+    "text": "New Post",
+    "href": "http://localhost:4000/blog/project1/2016/04/19/New-Post/"
+  } ,
+
+  {
+    "text": "And So It Begins",
+    "href": "http://localhost:4000/blog/2017/07/01/dev-blog-begins/"
+  } ,
+
+  {
+    "text": "Daily Review",
+    "href": "http://localhost:4000/blog/daily/2017/07/02/daily-review/"
+  } 
+
+])
