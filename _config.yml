@@ -1,7 +1,7 @@
 # Site settings
-title: Dev Blog | niamurrell.com
+title: Dev Blog | NM
 description: "A Blog About Learning To Code"
-url: "#"
+url: "https://niamurrell.github.io/"
 
 
 
@@ -10,14 +10,14 @@ url: "#"
 baseurl: "/blog"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
+logo: 
 
 # Tertiary Parameters
 github_username:  niamurrell
-project_repository: null
-disqus_shortname: null
-g-analytics: null
-altmetric: true
+project_repository: false
+disqus_shortname: false
+g-analytics: UA-78667806-2
+altmetric: false
 
 # Build settings
 gems: [jekyll-paginate]
@@ -40,8 +40,8 @@ defaults:
 
 # Prose Settings
 prose:
-  ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: '#'
+  ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'img/favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
+  siteurl: 'https://niamurrell.github.io/'
   ispp: true
   media: 'img'
   metadata:

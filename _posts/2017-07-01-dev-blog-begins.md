@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      And So It Begins
-author:     Nia Murrell
+author:     Nia
 tags: 		
 subtitle:  	Blogging My Learn To Code Journey
 category:   
