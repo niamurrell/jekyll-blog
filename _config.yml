@@ -14,7 +14,7 @@ logo:
 
 # Tertiary Parameters
 github_username:  niamurrell
-project_repository: false
+project_repository: 
 disqus_shortname: false
 g-analytics: UA-78667806-2
 altmetric: false
