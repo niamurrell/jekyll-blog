@@ -3,10 +3,10 @@
   <channel>
     <title>Dev Blog | NM</title>
     <description>A Blog About Learning To Code</description>
-    <link>http://localhost:4000/blog/</link>
-    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Jul 2017 08:48:43 -0700</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2017 08:48:43 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 03 Jul 2017 09:53:03 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Jul 2017 09:53:03 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -211,8 +211,8 @@ I also have to reseach sign-in and authentication for our Coding For Product app
 
 </description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/daily/2017/07/02/daily-review/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/daily/2017/07/02/daily-review/</guid>
+        <link>http://localhost:4000/daily/2017/07/02/daily-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/daily/2017/07/02/daily-review/</guid>
         
         <category>JavaScript</category>
         
@@ -248,8 +248,8 @@ At the time I am starting this blog I am focusing on full-stack JavaScript progr
 
 </description>
         <pubDate>Sat, 01 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2017/07/01/dev-blog-begins/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/07/01/dev-blog-begins/</guid>
+        <link>http://localhost:4000/2017/07/01/dev-blog-begins/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/01/dev-blog-begins/</guid>
         
         
       </item>
