@@ -9,7 +9,7 @@ category:   daily
 
 ### Jekyll
 
-Today I got my Jekyll blog up and running on GitHub Pages. Thanks to what I learned yesterday about Node and Express, I was able to figure out what was going on in the template I used ([Project Pages](https://github.com/projectpages/project-pages)) without too much issue. Basically it builds the site based on includes, layouts, and a minimal amount of html & markdown files. It uses special brackets `{%  %}`, similar to what Express looks for in ejs files `<%  %>`. Probably wouldn't have been able to get this up and running in just a few hours without understanding what those brackets do! Now all I have to do is write posts using markdown...it literally couldn't be easier.
+Today I got my Jekyll blog up and running on GitHub Pages. Thanks to what I learned yesterday about Node and Express, I was able to figure out what was going on in the template I used ([Project Pages](https://github.com/projectpages/project-pages)) without too much issue. Basically it builds the site based on includes, layouts, and a minimal amount of html & markdown files. It uses special brackets similar to what Express looks for in ejs files `<%  %>`, only with curly braces. Probably wouldn't have been able to get this up and running in just a few hours without understanding what those brackets do! Now all I have to do is write posts using markdown...it literally couldn't be easier.
 
 I also had fun getting it to look pretty cool. I'm not a Photoshop expert by any means but I think it came out alright! Next I might add pagination and eventually would like to move it from GitHub Pages to my own website; there is a good [tutorial](http://jmcglone.com/guides/github-pages/) on how to do all of these things to review later.
 
