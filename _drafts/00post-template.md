@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Daily Review
+title:      
 author:     Nia
 tags: 		
-subtitle:  	
+subtitle:  	Daily Review
 category:   daily
 ---
 
