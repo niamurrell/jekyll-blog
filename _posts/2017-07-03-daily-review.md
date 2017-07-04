@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Daily Review
+title:      Jekyll Blog Success & More Express
 author:     Nia
 tags: 		Jekyll Express SublimeText 
-subtitle:  	Jekyll Blog Success & More Express
+subtitle:  	Daily Review
 category:   daily
 ---
 

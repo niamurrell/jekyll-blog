@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Daily Review
+title:      Jumping Into The Backend
 author:     Nia
 tags: 		JavaScript Node Express Tools
-subtitle:  	Jumping Into The Backend
+subtitle:  	Daily Review
 category:   daily
 ---
 
