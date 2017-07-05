@@ -29,6 +29,7 @@ request("http://formatted.api.url", function(error, response, body) {
 		console.log(parsedData["level1"]["level2"]["level3"]["dataIwant"]);
 	}
 });
+```
 
 You can also send the data to a page instead of just logging it to the console. To do that replace the `console.log()` function with:
 ```
