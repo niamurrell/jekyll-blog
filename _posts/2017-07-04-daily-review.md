@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Node API Request & UI Mockup
+title:      Node API Requests & UI Mockup
 author:     Nia
 tags: 		  JavaScript Node Express APIs Terminal
 subtitle:  	Daily Review
