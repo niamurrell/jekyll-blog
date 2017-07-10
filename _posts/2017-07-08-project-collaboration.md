@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      
+title:      Project Collaboration
 author:     Nia
-tags: 		  
+tags: 		  Git GitHub CodingForProduct CSS Tools
 subtitle:  	Daily Review
 category:   daily
 ---
