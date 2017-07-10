@@ -7,7 +7,7 @@ subtitle:  	Daily Review
 category:   daily
 ---
 
-Workshop day for Coding For Product so picked op ***lots*** of new information in today's talks:
+Workshop day for Coding For Product so picked up ***lots*** of new information in today's talks:
 
 ### APIs, Authentication, & Authorization
 Learned that browsers have a single origin policy meaning it will only process information from items on the same or a similar domain. This makes things tricky when working with APIs from different sources, and explains why you need a server to process them. It also can explain why you need to host your own fonts (except for Google fonts somehow?). Also picked up some new terms to be aware of on this topic: JWT (JSON web tokens), CORS (cross origin resource sharing...helps resolve single origin issues), and curl, a way to imitate a browser from the command line.
@@ -28,9 +28,9 @@ An **ERD** (entities relational diagram) is a standardized illustration of how t
 
 ### Other Stuff
 Also learned about some additional tools which will probably be helpful for building our app:
-* express-ejs-layouts (npm package) lets you set a standardized layout for all the pages on your site, so that you don't have to repeat `include` statements in each page file.
+* `express-ejs-layouts` (npm package) lets you set a standardized layout for all the pages on your site, so that you don't have to repeat `include` statements in each page file.
 * `.env` files are how you keep sensitive information out of public repositories and can still collaborate with other people on the project.
-* Passport is another npm package which handles user login with Node and Express.
+* `passport` is another npm package which handles user login with Node and Express.
 * Got stuck on another layout issue which was solved again with a CSS `float`. Reminder to self: always try a float!!
 
 ### Up Next
