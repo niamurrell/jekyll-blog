@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      
+title:      UI Completed
 author:     Nia
-tags: 		  
+tags: 		  Bootstrap Modals Node
 subtitle:  	Daily Review
 category:   daily
 ---
