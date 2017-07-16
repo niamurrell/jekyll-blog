@@ -21,31 +21,44 @@ The issue turned out to be that whatever users are meant to be created in the "s
 
  ```
  // require Mongoose to be able to interact with db via JS
+
 var mongoose = require("mongoose");
 
+
 // connect to mongodb server. 27017 is default, can be checked in mongod terminal session
+
 mongoose.connect("mongodb://localhost:27017/cat_app");
 
+
 // create an inital model for the documents in the db
+
 var catSchema = new mongoose.Schema({
   name: String, //data types must be capitalized
   age: Number,
   temperament: String
 });
 
+
 // compile the model into a variable which will be used to manipulate the db
+
 // "Cat" must be singular version of your model name. Mongoose will create a collection of plural "cats" automatically based on your naming
+
 // Compiling connects the new variable to a library of methods (Cat.find(), Cat.remove() etc.)
+
 var Cat = mongoose.model("Cat", catSchema);
 
+
 // create a new document as a new JS variable
+
 var tiger = new Cat({
   name: "Tiger",
   age: 6,
   temperament: "shy"
 });
 
+
 // save the new document to the db and include error logs
+
 tiger.save(function(err, cat) {
   if(err){
     console.log("something went wrong");
@@ -57,7 +70,9 @@ tiger.save(function(err, cat) {
 
 
 // alternate way to create and save a new document at one time
+
 // must keep model and compile model in the file
+
 Cat.create({
   name: "Skitz",
   age: 2,
@@ -70,7 +85,9 @@ Cat.create({
   }
 });
 
+
 // retrieve all cats from the database and console.log() each one with empty object + callback function
+
 Cat.find({}, function(err, cats) {
   if(err) {
     console.log("an error occurred");
