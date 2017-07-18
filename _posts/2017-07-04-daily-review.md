@@ -20,7 +20,7 @@ npm install request --save
 ```
 
 In the app.js file it needs to be required at the top, and then you can use a request function to call the API. This function returns a string (rather than the JSON or XML needed) so you also have to use the JavaScript built-in `parse()` function to get the right output. Then you can access the data you want by following the JSON object nesting pattern:
-```
+```javascript
 var request = require("request");
 
 request("http://formatted.api.url", function(error, response, body) {
@@ -45,7 +45,7 @@ To pull in search terms from the user and plug these into the API's request URL,
 ```
 
 Then include this term in the `GET` route that calls the API. The final route would then be:
-```
+```javascript
 app.get("/results", function(req, res) {
 	var searchTerm = req.query.search;
 	var concatUrl = "http://www.apiSource.com/?search=" + searchTerm;

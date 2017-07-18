@@ -19,7 +19,7 @@ The issue turned out to be that whatever users are meant to be created in the "s
 
  Got an intro to Mongoose in my bootcamp. [Mongoose](https://www.npmjs.com/package/mongoose) is an ORM (object relational mapping library) that turns JavaScript into MongoDB's query language. Similar to [Sequelize](https://www.npmjs.com/package/sequelize), which is what we'll be using in the group project with Postgres. Here is the basic setup for using it in an app and setting up a schema:
 
- ```
+ ```javascript
  // require Mongoose to be able to interact with db via JS
 
 var mongoose = require("mongoose");

@@ -7,13 +7,13 @@ subtitle:  	Daily Review
 category:   daily
 ---
 
-I have been working on a [Udemy web development bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) for about a month now. It started with front-end development: HTML, CSS, Javascript, and jQuery. Yesterday and today has been jumping into the backend, first getting set up with Node and then the Express framework. 
+I have been working on a [Udemy web development bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) for about a month now. It started with front-end development: HTML, CSS, Javascript, and jQuery. Yesterday and today has been jumping into the backend, first getting set up with Node and then the Express framework.
 
 ### Node.js
 
 A few weeks ago I went to an "intro" event where I was hoping to get a basic understanding of Node.js but at that time I barely understood how the backend even works so it mostly went over my head. Now it's been explained really well in my bootcamp so I actually understand what it's for and how to use it!
 
-The first Node exercises were similar to the first exercises that we did in the JavaScript modules, only run on the server instead of the browser. 
+The first Node exercises were similar to the first exercises that we did in the JavaScript modules, only run on the server instead of the browser.
 
 We also used a few npm packages to see their usefulness and how to install them. A good one for generating fake data was [faker](https://www.npmjs.com/package/faker) ⭐️; it can generate a lot of real-looking information like names, product names, addresses, databases, images, etc. That will be really useful in the future when mocking up sites and apps.
 
@@ -49,7 +49,7 @@ app.listen(3000, function() {
 
 This is like the big cahuna of getting it all to work. Routes are what tells the app what to do when each page is called, what dynamic information to change on the rendered site, and I have a feeling a lot more that I'll learn in the future! These are the main bits of code I want to remember:
 
-```
+```javascript
 app.get("/", function(request, response) {
 	response.send("Hello world!");
 });
@@ -57,7 +57,7 @@ app.get("/", function(request, response) {
 
 Conventionally `request` and `response` are often shortened to `req` and `res`. Both are very important: `req` is an object that contains all of the information about what triggered the route and `res` is everything you'll send back to be processed or rendered by the server.
 
-```
+```javascript
 app.get("*", function(req, res) {
 	res.send("This page doesn't exist...sorry!");
 });
@@ -65,7 +65,7 @@ app.get("*", function(req, res) {
 
 You can use a catch-all route to control the message for pages that don't exist. This must be below all of the other routes to work properly (otherwise all pages will get this response).
 
-```
+```javascript
 app.get("/blog/:month", function(req, res) {
 	var month = req.params.month;
 	res.send("The month is " + month + "!!");
@@ -90,7 +90,7 @@ In the ejs file:
 ```
 
 In the app.js file:
-```
+```javascript
 app.get("/:userName", function(req, res) {
 	var userName = req.params.userName;
 	res.render("app.js", {name: userName});
@@ -115,7 +115,7 @@ These special brackets `<%=  %>` and `<%  %>` must surround every line of embedd
 **Using a loop to render multiple objects in an ejs file:**
 
 In the app.js file:
-```
+```javascript
 app.get("/posts", function(req, res) {
 	var posts = [
 		{title: "Post 1", author: "Nia"},
@@ -179,6 +179,3 @@ Also at the end of the class one of my teammates told me about these easy, aweso
 Tomorrow I'll keep going with the bootcamp and will go a bit deeper into databases. Looks like we'll be using [MongoDB](https://www.mongodb.com/) so totally different to the workshop today.
 
 I also have to reseach sign-in and authentication for our Coding For Product app. No idea where to start there so it will be interesting!
-
-
-

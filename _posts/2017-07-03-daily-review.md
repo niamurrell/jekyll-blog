@@ -2,7 +2,7 @@
 layout:     post
 title:      Jekyll Blog Success & More Express
 author:     Nia
-tags: 		Jekyll Express SublimeText 
+tags: 		Jekyll Express SublimeText
 subtitle:  	Daily Review
 category:   daily
 ---
@@ -26,14 +26,14 @@ I'm guessing there is a way to make templates (like in Jekyll) so that you don't
 
 Also learned about ***Post Routes*** which are used to take data from the site user and add it to the site contents. This requires a new node package `npm install body-parser --save` which processes the user data on the server. It needs to be *required* and *used* in the main `app.js` file:
 
-```
+```javascript
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
 ```
 
 Then it can be used to add user inputs to the site output using a new command `res.redirect` and a `POST` route:
 
-```
+```javascript
 app.post("addentry", function(req, res) {
 	var newEntry = req.body.newentry;
 	entries.push(newEntry);
