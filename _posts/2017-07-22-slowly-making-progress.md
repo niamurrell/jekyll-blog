@@ -1,23 +1,23 @@
 ---
 layout:     post
-title:      
+title:      Slowly Making Progress
 author:     Nia
-tags: 		  
+tags: 		  CodingForProduct Authentication Alexa
 subtitle:  	Daily Review
 category:   daily
 ---
 
-Today our group met to attack this login/authentication problem and we made some progress!! It really helps to talk through a problem with other people. The whole login/authentication thing is just as new to my teammates as it is to me so we're all kind of in the dark, but even so putting three heads together got us farther along than I probably would have gotten carrying on as I had been,
+Today our group met to attack this login/authentication problem and we made some progress!! It really helps to talk through a problem with other people. The whole login/authentication thing is just as new to my teammates as it is to me so we're all kind of in the dark, but even so putting three heads together got us farther along than I probably would have gotten carrying on as I had been.
 
 ### Login Progress
 
-So the main development was that we have been able to query our database to compare the 'username' entered by the user on the 'login' page with existing users.
+So the main development was that we have been able to query our Postgres database (via sequelize) to compare the 'username' entered by the user on the login page with existing users.
 
-I should back up--the progress over the past week, once my teammate got our app connected with the database (a **huge** feat, seriously!), was configuring the 'signup' form to successfully post the new user's information to the database. Also included in that was hashing the password for security, and putting validation against the form (unique email address, password with security criteria, etc.).
+I should back up--the progress over the past week, once my teammate got our app connected with the database (a **huge** feat, seriously!), was configuring the 'signup' form to successfully post the new user's account details to the database. Also included in that was hashing the password for security, and putting validation against the form (unique email address, password with security criteria, etc.).
 
 So now that users can successfully and securely sign up for the site, we need to allow them to log in and use the app from their own account. And this is where it got difficult. Configuring the `passport` module and all of its dependencies has proven to be incredibly tough. But today we at least got it to check for an existing user given the email address entered in the login form.
 
-Next we tried to pull that user's hashed password from their record, convert it to plaintext, and compare it against the password they entered when trying to log in. For so many reasons, we couldn't get this working. So we reached out to some of the mentors in our project and were advised to check the password outside in rather than inside out...that is, hash the password they enter on the form and see if that hash matches the hash stored in the database. So that is the next step to try and get it working...fingers crossed!
+Next we tried to pull that user's hashed password from their record, convert it to plaintext, and compare it against the password they entered on the login form. For so many reasons, we couldn't get this working. So we reached out to some of the mentors in our project and were advised to check the password outside-in rather than inside-out...that is, hash the password they enter on the form and see if that hash matches the hash stored in the database. So that is the next step to try and get it working...fingers crossed!
 
 ### Alexa Skills Workshop
 
