@@ -33,6 +33,7 @@ MongoDB
 Mongoose
 Node
 PairProgramming
+Passport
 PostgreSQL
 RESTful
 Sass
