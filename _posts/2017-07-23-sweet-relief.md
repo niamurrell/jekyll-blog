@@ -32,6 +32,7 @@ With a working example to compare against I got working on our app. There was a 
 I came across several good references from other people working through the same issues. These will probably come in handy for the next steps in the process:
 * [mgritts progress blog post](http://mgritts.github.io/2016/08/30/cp5-sequelize-up-running/) - implementing RESTful routes with Passport & Sequelize
 * Lynda Chiwetelu's [detailed article](https://code.tutsplus.com/tutorials/using-passport-with-sequelize-and-mysql--cms-27537) on implementing Passport with Sequelize (but with MySQL not PostgreSQL)
+* [Raymond Camden's troubleshooting tips](https://www.raymondcamden.com/2016/06/23/some-quick-tips-for-passport/) for using Passport
 * toon.io's overview of [authentication flow](http://toon.io/understanding-passportjs-authentication-flow/) for the bigger picture, to keep things on track
 * Chris Courses YouTube series ([video 1](https://youtu.be/gYjHDMPrkWU)) on implementing authentication with Passport, *very* well taught (but with MySQL and MAMP)
 * Wai-Yin's start-to-finish overview for Coding For Product ([demo](https://www.youtube.com/watch?v=Iu2bIg8fvTw) and [code](https://github.com/CodingForProduct/demo-express-lowdb-passport)), again for bigger picture (but with Lowdb)
