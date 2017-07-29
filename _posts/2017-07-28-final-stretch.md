@@ -32,7 +32,7 @@ We can also use this to display different navigation items depending on whether 
     <% if(!currentUser) { %>
       <li><a href="/login">Log In</a></li>
       <li><a href="/register">Sign Up</a></li>
-    <% } else {%>
+    <% } else { %>
       <li><a href="#">Signed In As <%= currentUser.username %></a></li>
       <li><a href="/logout">Sign Out</a></li>
     <% } %>
@@ -42,7 +42,7 @@ We can also use this to display different navigation items depending on whether 
 
 ### Other Stuff
 
-Figured out how to validate a form using jQuery. Doing so reinforced some JavaScript basics--I prefer to avoid nesting functions and *"callback hell"*, but I'm learning that it's pretty much not avoidable. I had listed each of the functions in a js file expecting it to execute from top to bottom, but some code at the bottom broke the whole thing. It was necessary to put all of the functions into one function and then execute them all at the same time to get it to work. I would like to understand this better--I get why it worked but I don't fully get why the first way couldn't work.
+Figured out how to validate a form using jQuery. Doing so reinforced some JavaScript basics--I prefer to avoid nesting functions and *"callback hell,"* but I'm learning that it's pretty much not avoidable. I had listed each of the functions in a js file expecting it to execute from top to bottom, but some code at the bottom broke the whole thing. It was necessary to put all of the functions into one function and then execute them all at the same time to get it to work. I would like to understand this better--I get why it worked but I don't fully get why the first way couldn't work.
 
 ### Up Next
 
