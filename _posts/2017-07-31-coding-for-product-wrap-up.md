@@ -60,13 +60,13 @@ In the end I am so happy I took part in [Coding For Product](http://codingforpro
 * 20ish students put into small groups on day 1 to come up with an idea for a web app and build it from scratch in 5 weeks. We were all skill levels from beginner to employed developers, and apps were built in JavaScript, Python, and Ruby.
 * Weekly workshops where we heard presentations from a great host of people from many different tech backgrounds about a wide variety of topics applicable to working as a developer including:
     * Product Design & UX (user stories, empathy maps, wireframing, etc.)
-		* Intro to different kinds of web apps
-		* Project management tools & collaboration workflows
-		* Design frameworks like Bootstrap & Foundation, Sass
-		* Intro to working with databases, SQL, and data modeling
-		* Authentication & Authorization
-		* Deployment
-		* Presenting A Product & Communicating with Non-Devs
+    * Intro to different kinds of web apps
+    * Project management tools & collaboration workflows
+    * Design frameworks like Bootstrap & Foundation, Sass
+    * Intro to working with databases, SQL, and data modeling
+    * Authentication & Authorization
+    * Deployment
+    * Presenting A Product & Communicating with Non-Devs
     * Professional development & discussion about entering the workplace
 * 12+ hours/week to actually build our app, have group meetings, study, etc.
 * Community support from companies like [GitHub](https://github.com/), [O'Reilly](https://www.oreilly.com/), [Rosenfeld Media](http://rosenfeldmedia.com/), and [Frontend Masters](https://frontendmasters.com/) who donated learning resources and discounts and the like to everyone who completed the workshop
