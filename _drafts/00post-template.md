@@ -18,6 +18,7 @@ category:   daily
 
 **Tags List:**
 APIs
+Authentication
 Bootstrap
 CodingForProduct
 CSS
