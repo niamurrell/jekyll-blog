@@ -2,16 +2,16 @@
 layout:     post
 title:      Heroku Workflow & Intro to Advanced Topics
 author:     Nia
-tags: 		  Heroku Deployment This OOP New Closures
+tags: 		  Heroku Deployment This OOP New Closures JavaScript
 subtitle:  	Daily Review
 category:   daily
 ---
 
-Today I quasi-finished the online bootcamp course. Quasi- because I still have to go back and do two sections I skipped, but I completed the big app project and the "advanced topics" section. Annnd to be honest 'completed' might be a bit strong too--while I got a LOT out of doing the bootcamp, it kind of seems like they never finished making the course? It just kind of stops midway through the project so I'll have a lot of refining to do on my own. Not that that's a bad thing!
+Today I quasi-finished the online bootcamp course. Quasi- because I still have to go back and do two sections I skipped, but I completed the big app project and the "advanced topics" section. *Annnd* to be honest "completed" might be a bit strong too--while I got a LOT out of doing the bootcamp, it kind of seems like they never finished making the course? It just kind of stops midway through the project so I'll have a lot of refining to do on my own. Not that that's a bad thing!
 
 ### Heroku Deployment
 
-I deployed the bootcamp project we've been working on to Heroku [link](http://firecamp2017.herokuapp.com/) which was pretty straightforward after doing the previous apps. Good to know I'm comfortable with that! For future reference here is the typical order of commands:
+I deployed the bootcamp project we've been working on to Heroku ([link](http://firecamp2017.herokuapp.com/)) which was pretty straightforward after doing the previous apps. Good to know I'm comfortable with that! For future reference here is the typical order of commands:
 
 1. Add to package.JSON:
 ```
@@ -44,7 +44,7 @@ One of the advanced topics in the last section of the course was about using the
 
 ### Object Oriented Programming
 
-We also covered the basics of OOP, and how to use classes as blueprints to create new objects. Coincidentally the keyword `new` comes up a lot! Som basics...
+We also covered the basics of OOP, and how to use classes as blueprints to create new objects. Coincidentally the keyword `new` comes up a lot! Some basics...
 
 **Constructor functions** are abstract and modular so that they can be shared and reused within an application. By convention, a constructor function will be Capitalized. The keyword `new` is used to create a new object from the constructor; it automatically does four things:
 1. Creates an empty object
@@ -142,7 +142,7 @@ outer()() // "closures are awesome"
 From the little I've learned about ES6 it seems to me that the new `let` and `const` variables might accomplish the same thing as closures? I need to look into that more.
 
 ### Other Stuff
-I came across [this developer roadmap](https://github.com/kamranahmedse/developer-roadmap) again today...the first time I saw it was maybe a month or two ago. It was nice to recognize that in that short time, I already know more things on this map than I did the last time I looked at it!
+I came across [this developer roadmap](https://github.com/kamranahmedse/developer-roadmap) again today...the first time I saw it was maybe a month or two ago. It was nice to recognize that in that short time, I already recognize more things on this map than I did the last time I looked at it!
 
 ### Up Next
 

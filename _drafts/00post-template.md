@@ -20,6 +20,7 @@ category:   daily
 APIs
 Authentication
 Bootstrap
+Closures
 CodingForProduct
 CSS
 Databases
@@ -27,12 +28,15 @@ Deployment
 Git
 GitHub  
 Express
+Heroku
 JavaScript
 Jekyll  
 Modals
 MongoDB  
 Mongoose
+New
 Node
+OOP
 PairProgramming
 Passport
 PostgreSQL
@@ -42,6 +46,7 @@ Struggling
 SublimeText
 Terminal
 Testing
+This
 Tools
 UI
 Yarn
