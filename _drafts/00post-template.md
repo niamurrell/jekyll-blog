@@ -20,8 +20,10 @@ category:   daily
 APIs
 Authentication
 Bootstrap
+C
 Closures
 CodingForProduct
+CS50
 CSS
 Databases
 Deployment
@@ -30,7 +32,9 @@ GitHub
 Express
 Heroku
 JavaScript
-Jekyll  
+Jekyll
+jQuery
+Libraries
 Modals
 MongoDB  
 Mongoose

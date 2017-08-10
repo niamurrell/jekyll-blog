@@ -2,7 +2,7 @@
 layout:     post
 title:      Boot Camp Wrapup
 author:     Nia
-tags: 		  Libraries
+tags: 		  Libraries jQuery
 subtitle:  	Daily Review
 category:   daily
 ---
@@ -15,7 +15,7 @@ The To Do app was mostly review of jQuery so I was able to write that on my own 
 
 ### jQuery Event Handler `on`
 
-I was aware of the difference between using `$(selector).click()` and `$(selector).on("click")`: the former listens for clicks on existing page elements only while the latter can also listen for events on elements created after the page has loaded (i.e. created as a result of something the user has done). What I didn't realize before is that `.on("click)` still needs its selector to be an existing page element in order to work; then the hypothetical elements can be added in as an argument of `on`. Here's an example of how you would listen for events on list items created by the user:
+I was aware of the difference between using `$(selector).click()` and `$(selector).on("click")`: the former listens for clicks on existing page elements only while the latter can also listen for events on elements created after the page has loaded (i.e. created as a result of something the user has done). What I didn't realize before is that `.on("click")` still needs its selector to be an existing page element in order to work; then the hypothetical elements can be added in as an argument of `on`. Here's an example of how you would listen for events on list items created by the user:
 ```javascript
 $("ul").on("click", "li", function() {
 	$(this).toggleClass("markDone");
@@ -32,4 +32,4 @@ This will work for any `li`s that are on the page when it loads, but nothing wil
 
 ### Up Next
 
-It's weird being done with all of the big projects I was working on! Next to tackle at [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) and my portfolio page.
+It's weird being done with all of the big projects I was working on! Next to tackle are [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) and my portfolio page.
