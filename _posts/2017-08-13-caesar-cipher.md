@@ -2,7 +2,7 @@
 layout:     post
 title:      Caesar + Vigenère Ciphers & Sorting Intro
 author:     Nia
-tags: 		  CS50 C
+tags: 		  CS50 C Cryptography
 subtitle:  	Daily Review
 category:   daily
 ---

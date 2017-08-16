@@ -23,6 +23,7 @@ Bootstrap
 C
 Closures
 CodingForProduct
+Cryptography
 CS50
 CSS
 Databases
@@ -43,7 +44,9 @@ Node
 OOP
 PairProgramming
 Passport
+Podcasts
 PostgreSQL
+Python
 RESTful
 Sass
 Struggling
