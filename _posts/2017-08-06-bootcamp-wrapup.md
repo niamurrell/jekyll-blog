@@ -7,7 +7,7 @@ subtitle:  	Daily Review
 category:   daily
 ---
 
-Officially finished with the online bootcamp...that's 43 hours of videos + all the time working! Lots of work went into it and I really enjoyed it and learned a lot. Including today, when I went back to the frontend part of the class to do the two projects I skipped during [Coding For Product](https://niamurrell.github.io/search/index.html#CodingForProduct). It was just building a simple JS to do app (no data persistence) and then a really cool [Patatap](http://patatap.com/) clone using a couple of libraries: [Paper JS](http://paperjs.org/) for the animations and [Howler JS](https://howlerjs.com/) for the sounds. 
+Officially finished with the [online bootcamp](https://www.udemy.com/the-web-developer-bootcamp/)...that's 43 hours of videos + all the time working! Lots of work went into it and I really enjoyed it and learned a lot. Including today, when I went back to the frontend part of the class to do the two projects I skipped during [Coding For Product](https://niamurrell.github.io/search/index.html#CodingForProduct). It was just building a simple JS to do app (no data persistence) and then a really cool [Patatap](http://patatap.com/) clone using a couple of libraries: [Paper JS](http://paperjs.org/) for the animations and [Howler JS](https://howlerjs.com/) for the sounds. 
 
 Since the Patatap clone was a whole new concept and built on a library, it was a lot of reading the docs and copy/pasting, or just following along with the videos. The Paper JS library is really cool though, I'd like to get more practice building things with it from scratch.
 

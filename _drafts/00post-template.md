@@ -19,6 +19,7 @@ category:   daily
 **Tags List:**
 APIs
 Authentication
+AWS
 Bootstrap
 C
 Closures
