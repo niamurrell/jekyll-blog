@@ -7,7 +7,7 @@ subtitle:  	Daily Review
 category:   daily
 ---
 
-Picked up CS50 again today...I don't really look forward to it and have been having motivation issues when it comes to dedicating the time, but every time I sit down to work on it, I remember actually it's not that bad! In today's assignment we're learning about compiling code in C and writing makefiles. When I look at the assignments it's a lot of information to take in, but with a good, quiet place to concentrate, I'm getting through it.
+Picked up [CS50](https://niamurrell.github.io/search/index.html#CS50) again today...I don't really look forward to it and have been having motivation issues when it comes to dedicating the time, but every time I sit down to work on it, I remember actually it's not that bad! In today's assignment we're learning about compiling code in C and writing makefiles. When I look at the assignments it's a lot of information to take in, but with a good, quiet place to concentrate, I'm getting through it.
 
 Buuuut it was kind of cut short this afternoon because there was a mentoring meetup night I wanted to go to in my area. It's when a bunch of people learning to code come, and a bunch of people who work as developers come, and we meet, chat, code, get/give advice, etc. I'd been to a few with this group before and have never been disappointed!
 
