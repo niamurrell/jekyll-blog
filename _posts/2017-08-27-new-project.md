@@ -1,20 +1,20 @@
 ---
 layout:     post
-title:      
+title:      New Project! Value Tracker
 author:     Nia
-tags: 		  
+tags: 		  Planning
 subtitle:  	Daily Review
 category:   daily
 ---
 
-Reading advice everywhere I'm constantly reading, "build your own projects," "BUILD YOUR OWN PROJECTS," "**BUILD. YOUR. OWN. PROJECTS!!!**" So today I started one. 😄  I think I'd been experiencing paralysis in coming up with something to build because I tend to want everything I do to be ***epic*** but I realize I need to just get over that, otherwise I'll never build anything! And following along with coding tutorials doesn't really cut it:
+Reading advice everywhere I'm constantly reading, "build your own projects," "BUILD YOUR OWN PROJECTS," "**BUILD. YOUR. OWN. PROJECTS!!!**" So today I started one 😄  I think I'd been experiencing paralysis in coming up with something to build because I tend to want everything I do to be ***epic*** but I realize I need to just get over that, otherwise I'll never build anything! And coding along with tutorials doesn't really cut it...they leave a lot of learning out!:
 
 ![Coding Tutorials](https://pbs.twimg.com/media/DDOJtKwWAAAFipP.jpg:large) 
 
 
 ### Value App Project
 
-There are some things that I stress about buying because I'm not 100% sure I'll actually use them, or that I'll get as much value out of them as I want to. Examples: gym membership, any membership really, pricier clothing or accessories, etc. I always thought it would be helpful/motivational to keep track of when I use these things, so that I can see the per-use value go down every time. For example, if I know it can cost me $4 each time I use the gym going 10 times in a month vs. $40 if I go once, I'll be *way* more inclined to go! Is that weird?  ¯\_(ツ)_/¯  Anyway today I wanted to use this, so I decided to just build it.
+There are some things that I stress about buying because I'm not 100% sure I'll actually use them, or that I'll get as much value out of them as I want to. Examples: gym membership, any membership really, pricier clothing or accessories, etc. I always thought it would be helpful/motivational to keep track of when I use these things, so that I can see the per-use value go down every time. For example, if I know it can cost me \$4 each time I use the gym going 10 times in a month vs. \$40 if I go once, I'll be *way* more inclined to go! Is that weird?  `¯\_(ツ)_/¯`  Anyway today I wanted to use this, so I decided to just [build it](https://github.com/niamurrell/value-app).
 
 I'm going to use Node and Express so that I can practice more, following the [Udemy course](https://niamurrell.github.io/daily/2017/08/06/bootcamp-wrapup/) and my [Coding For Product](https://niamurrell.github.io/search/#CodingForProduct) project. I'm also going to use MongoDB because I'm more comfortable with it, and haven't solidly learned how to reference between tables using SQL. Also I know I can deploy this for free on Heroku with mLab, not sure of the SQL options there yet.
 
