@@ -45,6 +45,7 @@ Node
 OOP
 PairProgramming
 Passport
+Planning
 Podcasts
 PostgreSQL
 Python
