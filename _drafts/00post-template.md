@@ -17,6 +17,7 @@ category:   daily
 
 
 **Tags List:**
+Algorithms
 APIs
 Authentication
 AWS
