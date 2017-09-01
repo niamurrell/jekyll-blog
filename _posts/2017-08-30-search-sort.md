@@ -2,7 +2,7 @@
 layout:     post
 title:      Search & Sort
 author:     Nia
-tags: 		  Algorithms CS50
+tags: 		  Algorithms CS50 ValueApp
 subtitle:  	Daily Review
 category:   daily
 ---

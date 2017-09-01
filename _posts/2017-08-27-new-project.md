@@ -2,7 +2,7 @@
 layout:     post
 title:      New Project! Value Tracker
 author:     Nia
-tags: 		  Planning
+tags: 		  Planning ValueApp
 subtitle:  	Daily Review
 category:   daily
 ---

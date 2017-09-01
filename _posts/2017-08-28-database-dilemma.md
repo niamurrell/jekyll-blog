@@ -2,7 +2,7 @@
 layout:     post
 title:      Value App - Database Dilemma
 author:     Nia
-tags: 		  Databases
+tags: 		  Databases ValueApp
 subtitle:  	Daily Review
 category:   daily
 ---
