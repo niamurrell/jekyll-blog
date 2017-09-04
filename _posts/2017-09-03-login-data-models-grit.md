@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      
+title:      Login & Data Models & Grit
 author:     Nia
 tags: 		  ValueApp Express Passport
 subtitle:  	Daily Review
