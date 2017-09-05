@@ -19,7 +19,7 @@ Next up was changing my schema models to reference each other; ultimately I want
 
 ### Other Stuff
 
-I started on the book [Grit by Angela Duckworth] and I'm really enjoying it so far. I sometimes worry that I'm trying to do too many things at once (value app, CS50, MySQL course, Python intro, this blog, etc...for example), knowing that individually these things take a *lot* of time and attention so I need to cut the list down. And while that's still true, one piece of encouragement I took from the book was that I am still going, which is a positive sign! It definitely hasn't been all rainbows and lollipops, but it's been nearly a year now that I've really be learning in earnest, and I still have as much excitement and drive around what I'm doing (maybe more) as I did when I started so that's on the right track!
+I started on the book [Grit by Angela Duckworth](https://www.goodreads.com/book/show/27213329-grit) and I'm really enjoying it so far. I sometimes worry that I'm trying to do too many things at once (value app, CS50, MySQL course, Python intro, this blog, etc...for example), knowing that individually these things take a *lot* of time and attention so I need to cut the list down. And while that's still true, one piece of encouragement I took from the book was that I am still going, which is a positive sign! It definitely hasn't been all rainbows and lollipops, but it's been nearly a year now that I've really be learning in earnest, and I still have as much excitement and drive around what I'm doing (maybe more) as I did when I started so that's on the right track!
 
 ### Up Next
 
