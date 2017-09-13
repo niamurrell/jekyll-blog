@@ -33,7 +33,9 @@ if (byte[0] == 0xff &&
 	byte[1] == 0xd8 &&
 	byte[2] == 0xff &&
 	(byte[3] & 0xf0) == 0xe0)
-	...
+	{
+		...
+	}
 ```
 
 This bottom condition uses a bit operator to clear the lower four bits to make the first four bits `1110` (14, aka `e`). Nifty! And simpler than what I was going to write:
@@ -43,7 +45,9 @@ if (byte[0] == 0xff &&
 	byte[1] == 0xd8 &&
 	byte[2] == 0xff &&
 	byte[3] >= 0xe0 || byte[3] <= 0xef)
-	...
+	{
+		...
+	}
 ```
 
 ### Other Stuff
