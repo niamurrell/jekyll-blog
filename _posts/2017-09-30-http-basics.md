@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      
+title:      HTTP Basics
 author:     Nia
-tags: 		  
+tags: 		  CS50
 subtitle:  	Daily Review
 category:   daily
 ---

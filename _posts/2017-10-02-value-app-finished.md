@@ -13,7 +13,7 @@ Well, functionally finished that is. All of the logic, date additions, etc. are 
 
 ### JavaScript Date Object
 
-This is a new beast whose tricks I'm slowly learning. First all my dates were coming in as strings which doesn't necessarily change the function of the app, but doesn't strike me as being good practice either. To fix this I added the Date object on top of the incoming form data: `purchaseDate: new Date(formDateInputField)`. 
+This is a new beast whose tricks I'm slowly learning. First all my dates were coming in as strings which doesn't necessarily change the function of the app, but doesn't strike me as being good practice either. To fix this I added the Date object on top of the incoming form data: `purchaseDate: new Date(formDateInputField)` instead of `purchaseDate: formDateInputField`. 
 
 Next I ran into browser issues with this whole setup. In Chrome, there is a calendar dropdown which seems helpful, except that the calendar records UTC time while my computer is several hours behind. This means that no matter what date I pick on the calendar, the day after is what's being saved to the database. Not ideal. In Firefox it saves it as my local timezone, but you have to manually type in the date each time. Also not ideal. 
 
