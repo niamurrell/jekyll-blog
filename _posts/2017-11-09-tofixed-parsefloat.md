@@ -2,7 +2,7 @@
 layout:     post
 title:      JavaScript Numbers - toFixed, parseFloat, toLocaleString
 author:     Nia
-tags: 		  JavaScript
+tags: 		  JavaScript ValueApp
 subtitle:  	Daily Review
 category:   daily
 ---
