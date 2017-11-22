@@ -11,4 +11,8 @@ I went to a meetup tonight where the topic was higher order functions and callba
 
 We also went through what the JS engine actually does to execute code, reading line by line, allocating memory to declare variables, and creating new execution contexts to call functions. Again, having it explained in this was was really helpful, and I was glad to see that taking CS50 has already started to pay off!—having gone through similar info in C it was cool to learn how that applies (technically and exactly) in JavaScript.
 
-The only bad thing about events like this is I realize just how much more I have to learn!! Well, that's not bad at all, it's great. But where is the time 😅😂 ?!
+The only bad thing about events like this is I realize just how much more I have to learn!! Well, that's not bad at all, it's great. But where is the time 😅😂 ?! 
+
+### Up Next
+
+Well I guess the good thing is I can already see some spots in my [value app](https://niamurrell.github.io/search/index.html#ValueApp) code where I can put what we learned into practice immediately. So I'll have a bit of refactoring to do, in addition to working out that [snag](https://niamurrell.github.io/daily/2017/11/20/snag/) and deploying.
