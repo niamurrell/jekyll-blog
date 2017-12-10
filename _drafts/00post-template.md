@@ -62,4 +62,5 @@ This
 Tools
 UI
 ValueApp
+VSCode
 Yarn

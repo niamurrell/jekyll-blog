@@ -14,6 +14,7 @@ I'm learning how to write a server in Node without using any frameworks. It's a 
 Node has several built-in methods which are needed to create a server and routing: 
 * `http`, which actually creates the server using the `createServer()` method, and then determines the port the server will be running on using the `listen()` method
 * `url` which uses the `parse()` method to allow you to create routes so that the server responds with different actions, depending on what URL you visit. 
+
 For now I'm just getting it to respond with plain text but you can also serve html files, video, audio, JSON, etc etc.
 
 For this challenge I'm trying to set up a server which will store key-value pairs in memory based on the URL parameters. I haven't even gotten to dealing with URL parameters yet, or to creating the streams to store this data. For now I've been able to get the routing working, and my server can handle the routes I need with or without a search query:
@@ -43,10 +44,3 @@ console.log("App running on port 4000");
 ```
 
 Originally I was using `req.url` in the `if` statements, which would be fine if I weren't using query strings. But because the queries should be different each time, this didn't really do the trick, so pulling out the `pathname` from the parsed URL object was the simplest solution I could find for this.
-
-
-### Other Stuff
-
-
-### Up Next
-
