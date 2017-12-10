@@ -42,6 +42,34 @@ for c in plain:
 
 One thing that I like in C that doesn't work in Python is the fact that characters (letters, numbers, etc.) are equivalent to their ASCII value, so `a == 97`, `A == 65`, etc. This made it pretty straightforward in the cipher exercises because you can just do simple addition or subtraction to shift the letters. In Python you have to explicitly change characters into numbers with `ord(char)`, do the manipulation, and then change it back to a letter with `chr(num)`. I think it's because Python forces type without needing the programmer to explicitly define type...so with characters they must be stored as strings? Anyway not the end of the world but I thought this was interesting.
 
-### Up Next: Sentiment Analyzer
+### Sentiment Analyzer
 
 Next up we are writing a program to analyze the sentiment of someone's tweets using the [Natural Language Toolkit](http://www.nltk.org/) and the [Twitter API](https://developer.twitter.com/). Pretty big jump from our little cipher programs but I'm on it!
+
+#### Python Class Syntax
+
+I'm getting familiar with the syntax of writing objects in Python, for example:
+```python
+class Student():
+	def __init__(self, name, id):
+		self.name = name
+		self.id = id
+
+	def changeID(self, id):
+		self.id = id
+
+	def print(self):
+		print("{ } - { }" .format(self.name, self.id))
+```
+
+Classes **require** an initialization function so will always start with the `__init__` method. They use the `self` parameter so that methods can be called on the class; `self` will always be the first parameter, and there will always be at least this one parameter.
+
+#### Data Structures
+
+I also learned the difference between a `list`, `dict`, and `set` in figuring out how to load the positive and negative word lists being used to analyze the tweets:
+
+**List**: Items are kept in order as values
+**Dict**: Items are a key-value pair 
+**Set**: Values only, order is not maintained, and duplicates are not allowed.
+
+So in this case `set` is best, and has the added benefit of a speedier search since it's not necessary to read through the whole list—it will just stop when the relevant word is found.
