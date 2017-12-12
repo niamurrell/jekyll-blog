@@ -11,9 +11,9 @@ I'm learning how to write a server in Node without using any frameworks. It's a 
 
 ### Creating & Routing A Node Server
 
-Node has several built-in methods which are needed to create a server and routing: 
+Node has several built-in modules which are needed to create a server and routing: 
 * `http`, which actually creates the server using the `createServer()` method, and then determines the port the server will be running on using the `listen()` method
-* `url` which uses the `parse()` method to allow you to create routes so that the server responds with different actions, depending on what URL you visit. 
+* `url`, which uses the `parse()` method to allow you to create routes so that the server responds with different actions, depending on what URL you visit. 
 
 For now I'm just getting it to respond with plain text but you can also serve html files, video, audio, JSON, etc etc.
 
