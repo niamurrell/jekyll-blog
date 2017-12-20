@@ -7,7 +7,7 @@ subtitle:  	Daily Review
 category:   daily
 ---
 
-I'm learning how to write a server in Node without using any frameworks. It's a coding challenge that I want to try completing without using Express, so back into the learning curve! So far I've learned that [Express](https://expressjs.com/) is awesome. 😝
+I'm learning how to write a server in [Node.js](https://nodejs.org/en/) without using any frameworks. It's a coding challenge that I want to try completing without using Express, so back into the learning curve! So far I've learned that [Express](https://expressjs.com/) is awesome. 😝
 
 ### Creating & Routing A Node Server
 
