@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      
+title:      Deployment In Progress
 author:     Nia
-tags: 		  Struggling ValueApp
+tags: 		  Struggling ValueApp Deployment
 subtitle:  	Daily Review
 category:   daily
 ---
