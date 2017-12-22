@@ -34,13 +34,7 @@ Note about the **new** command: you can change the default *new* type in the `co
 
 One interesting new thing to remember is how Hexo stores assets which belong to each post. If you set `post_asset_folder` to `True` in the `config.yml` file, any time you create a new post, it will also create an `assets` folder alongside the new post markdown file. In this folder you can store assets like images, etc. which will add to the content of that particular post.
 
-You can then access these assets with their own syntax, for example: 
-
-{% highlight %}
-{% asset_img filename.jpg File Caption %}
-{% endhighlight%}
-
-There are additional properties that are accessible with these tags. The [documentation](https://hexo.io/docs/) is quite good too!
+You can then access these assets with their own syntax. There are additional properties that are accessible with these tags. The [documentation](https://hexo.io/docs/) is quite good too!
 
 ### Project Plans
 
