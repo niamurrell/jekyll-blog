@@ -18,6 +18,7 @@ Hexo is a node package which allows you to create and compile static websites. S
 To use this tool, most of the work is done through the **Hexo Command Line Interface** (CLI). Here are some of the basic commands I learned about today:
 ```
 npm install -g hexo-cli // installs the Hexo CLI to access commands below
+hexo version (or -v) // checks CLI version
 hexo init "projectName" // installs the basic folder structure
 hexo server // generates static site and opens localhost port to preview
 ^C // stops server
