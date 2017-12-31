@@ -15,6 +15,7 @@ Where variables have their meaning. Some good reminders on the rules of scope:
 * Scope is created dynamically when we run a function, i.e. when we open a new execution context.
 * A function has access to its own local scope variables, and inputs to a function are treated as local scope variables. A function has access to variables in higher generation scopes (parent, grandparent, global, window, etc.), but not sibling of child scopes.
 * A function's local scope variables are not available anywhere outside that function, regardless of the context it's called in:
+
 ```javascript
 var ACTUAL = null;
 var firstFn = function () {
@@ -29,8 +30,10 @@ var secondFn = function () {
 secondFn(); // error
 firstFn(); // ACTUAL === null
 ```
+
 * If an inner and an outer variable share the same name, and the name is referenced in the inner scope, the inner scope variable takes precedence. This makes the outer scope variables inaccessible from anywhere within the inner function block. If the name is referenced in the outer scope, the outer value binding will be used.
 * A new variable scope is created for every call to a function:
+
 ```javascript
 var fn = function () {
 	var localVariable;
@@ -45,8 +48,10 @@ var fn = function () {
 fn(); // ACTUAL === 'alpha'
 fn(); // ACTUAL === 'alpha'
 ```
+
 * An inner function can access both its local scope variables and variables in its containing scope, provided the variables have different names
 * Between calls to an inner function, that inner function retains access to a variable in an outer scope. Modifying those variables has a lasting effect between calls to the inner function:
+
 ```javascript
 var outerCounter = 10;
 
@@ -93,6 +98,7 @@ The [Underscore](http://underscorejs.org/) library adds a lot of methods to the 
 
 #### _.each()
 `_.each()` iterates over a list of elements; the iterator comes with three parameters:
+
 ```javascript
 _.each([1, 2, 3], function(element, index, wholeThing) {
 	// do something
@@ -114,6 +120,7 @@ _.each(pokemon, logger);
 
 #### _.map()
 `_.map()` iterates over a list of elements and returns a new list of values by mapping each original value through a transformation function (iterator). With `_.map()` you ***must*** *return* a value in the iterator function so that there is a value to go into the array.
+
 ```javascript
 var makeExcited = function(val) {
 	return val + "!!!";
@@ -121,10 +128,12 @@ var makeExcited = function(val) {
 
 _.map(pokemon, makeExcited); // ["Evie!!!", "Growlithe!!!", "Vulpix!!!"]
 ```
+
 Note that all of these functions work the same way, by running a function as though it has three arguments: `function(element, index, wholeThing)`. If the function doesn't have three arguments, it assumes the first, or first 2 if there are two present.
 
 #### _.filter()
 `_.filter()` iterates over a **list** and returns an array containing only the values that pass the **tester** function (aka predicate): `_.filter(list, tester)` Example:
+
 ```javascript
 var evens = _.filter([1,2,3,4,5], function(num) {
 	return num % 2 === 0;
@@ -136,6 +145,7 @@ console.log(evens); // [2,4]
 #### Using Objects Instead of Arrays
 
 These methods work on both arrays and objects. To access the keys & values of objects you can look at the parameters of the function as `function(value, key, object)` instead of `function(element, index, array)`. Example:
+
 ```javascript
 var input = {
 	two: 2, 
