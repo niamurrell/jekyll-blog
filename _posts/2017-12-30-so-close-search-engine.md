@@ -11,7 +11,7 @@ BAHHH so close yet so far!! I am literally inches from the finish line for my se
 
 ### Chrome Dev Tools
 
-Today I worked with the debugger in Chrome for the first time. **It is so awesome!!!** The main challenge that stumped me yesterday turned out to be an off-by-one issue, which I wouldn't have figured out without Chrome's debugger. I was also able to clearly see the differences between the Jekyll JSON output and what I'm working with for my site. This information make it ***so*** much clearer to move forward. Now I get what all the fuss is about!
+Today I worked with the debugger in Chrome for the first time. **It is so awesome!!!** The main challenge that stumped me yesterday turned out to be an off-by-one issue, which I wouldn't have figured out without Chrome's debugger. I was also able to clearly see the differences between the Jekyll JSON output and what I'm working with for my site. This information makes it ***so*** much clearer to move forward. Now I get what all the fuss is about!
 
 ### Other Stuff
 
