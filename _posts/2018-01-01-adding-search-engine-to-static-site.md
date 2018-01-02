@@ -9,13 +9,13 @@ category:   daily
 
 I have been working on getting a search engine implemented on my new [Hexo](https://hexo.io/)-generated static website. It's been a mission to say the least! Since I'm moving my site from the Jekyll generator to Hexo, I have  a working example of what the end goal is. Here are the steps I took to translate the search function from Jekyll to Hexo, and what ultimately led to success.
 
-> Note: This walk-through assumes you already have a Hexo site set up and access to it from the command line. If that's not the case, check out the [Hexo docs](https://hexo.io/docs/), [this intro to Hexo video series](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm), or [my other Hexo posts](https://niamurrell.github.io/search/#Hexo) for more info about setting up a Hexo site.
+>Note: This walk-through assumes you already have a Hexo site set up and access to it from the command line. If that's not the case, check out the [Hexo docs](https://hexo.io/docs/), [this intro to Hexo video series](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm), or [my other Hexo posts](https://niamurrell.github.io/search/#Hexo) for more info about setting up a Hexo site.
 
 ### Generating Search Data
 
 This is the necessary first step for searching a static site. After all, we need something to search! For a static site, search data can be stored as a JSON file which contains documents for all of the content on your site. For example:
 
-```json
+```
 [
   {"title":"Workshop Day & Major App Work to Do",
     "path":"blog/2017-07-16-workshop-day/",
@@ -37,7 +37,7 @@ In real life all of these JSON documents would also contain fields for the post 
 
 Jekyll uses [Liquid](http://shopify.github.io/liquid/) as a templating engine, and Jekyll will parse Liquid tags to create a JSON file containing all of this post data. But Hexo doesn't have the same functionality with its templating engine (EJS), so we'll need to generate the JSON in some other way.
 
-Thankfully there are some Hexo plugins built to do just this. First I tried `hexo-generator-search` ([link](https://github.com/PaicHyperionDev/hexo-generator-search)) but found that this plugin is optimized for outputting XML data; although it *can* make a JSON file, the output wasn't clean and had lots of new line `\n` tags and other code remnants in the text. I also tried `hexo-generator-json-content` ([link(https://github.com/alexbruno/hexo-generator-json-content)]) which seemed more promising: it's more customizable as far as which fields are included in the JSON file, and the miscellaneous characters occurred less frequently.
+Thankfully there are some Hexo plugins built to do just this. First I tried `hexo-generator-search` ([link](https://github.com/PaicHyperionDev/hexo-generator-search)) but found that this plugin is optimized for outputting XML data; although it *can* make a JSON file, the output wasn't clean and had lots of new line `\n` tags and other code remnants in the text. I also tried `hexo-generator-json-content` ([link](https://github.com/alexbruno/hexo-generator-json-content)]) which seemed more promising: it's more customizable as far as which fields are included in the JSON file, and the miscellaneous characters occurred less frequently.
 
 To install this plugin, navigate to your site's directory in the command line and install the plugin with npm:
 
@@ -141,7 +141,7 @@ jQuery(function () {
 	});
 
 	$("#site-search").submit(function (event) {
-		event.preventDefault(); /
+		event.preventDefault();
 		var query = $("#search-box").val();
 		var results = idx.search(query);
 		display_search_results(results);
@@ -262,7 +262,7 @@ And we have a winner! Now when we search any term within either data item, its t
 
 Now that we know the search engine displays the results we want, let's make the data live outside of this search function. After all, a new JSON file will be generated each time a new post is published to the site, not to mention it will be a pretty large file with new posts being added on a daily basis (sometimes as long as this one!). To start let's use the same simple data but save it to a new file in the root directory of the site; I added a third document for testing purposes:
 
-```json
+```
 ## /test.JSON
 [{"title": "Twelfth-Night",
   "body": "If music be the food of love, play on: Give me excess of it…",
