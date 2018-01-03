@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      AWS Lambda Functions & Deployment Wrap-Up
+title:      AWS Lambda Functions & Deployment Progress
 author:     Nia
 tags: 		  AWS
 subtitle:  	Daily Review
