@@ -2,7 +2,7 @@
 layout:     post
 title:      AWS Lambda Functions & Deployment Progress
 author:     Nia
-tags: 		  AWS
+tags: 		  AWS Deployment
 subtitle:  	Daily Review
 category:   daily
 ---
@@ -22,7 +22,7 @@ But that wasn't the issue at all. From an article I found: ***Objects do not inh
 
 ...well, sort of. Although each individual file is available, the linking within the site still isn't working. Let's say a person tries to visit `https://dev.niamurrell.com/portfolio`...this would give an access denied error; but if you tack on to the end and try to visit `https://dev.niamurrell.com/portfolio/index.html` then it works fine.
 
-This is because CloudFront works by authenticating each individual request to objects (aka files) stored in the S3 bucket. If someone requests `/portfolio/`, there isn't actually an object there to authenticate, so nothing loads.  This is where AWS Lambda functions come into play. Lambda functions are snippets of code that you can write and integrate into websites or applications. Unlike running a server, this code stays dormant *until exactly when you need it*, so you only pay for the time that the code is actually running. And better still, the first 1 million requests per month are free—after that it goes up to a whopping $0.20 per additional million requests. I think I'm a long way from breaking the bank!
+This is because CloudFront works by authenticating each individual request to objects (aka files) stored in the S3 bucket. If someone requests `/portfolio/`, there isn't actually an object there to authenticate, so nothing loads.  This is where [AWS Lambda](https://aws.amazon.com/lambda/) functions come into play. Lambda functions are snippets of code that you can write and integrate into websites or applications. Unlike running a server, this code stays dormant *until exactly when you need it*, so you only pay for the time that the code is actually running. And better still, the first 1 million requests per month are free—after that it goes up to a whopping $0.20 per additional million requests. I think I'm a long way from breaking the bank!
 
 [This AWS Blog post](https://aws.amazon.com/blogs/compute/implementing-default-directory-indexes-in-amazon-s3-backed-amazon-cloudfront-origins-using-lambdaedge/) details how to get it working, although it's a bit out of date. Also one thing it didn't mention: in the Lambda dashboard you **must** be in a region that supports Lambda functions and CloudFront working together (like US East N. Virginia). That one took me some time to figure out.
 
